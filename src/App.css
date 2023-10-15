@@ -1,0 +1,46 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+  }
+  :root {
+    --primary-color: #bbf7d0;
+    --dark-gray: #60a5fa;
+  }
+  
+  body {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    background-color: var(--primary-color);
+  }
+  
+  .heading {
+    margin: 1rem auto;
+    padding: 10px;
+  }
+  
+  .inputArea {
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+  }
+  
+  .output {
+    font-size: xx-large;
+    margin: 0.7rem auto;
+    padding: 5px;
+    color: #16a34a;
+  }
+
+  .emoji-div {
+    margin: 1rem;
+  }
+
+  .emoji {
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
